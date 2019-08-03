@@ -1,0 +1,32 @@
+{
+  "name": "icon-loader-demo",
+  "version": "0.0.1",
+  "description": "A test project for Min Webpack",
+  "main": "demo.js",
+  "scripts": {
+    "build": "webpack -p --config ./webpack.config.babel.js",
+    "dev": "webpack -d --config ./webpack.config.babel.js",
+    "watch": "webpack -d --watch --config ./webpack.config.babel.js"
+  },
+  "author": "Tim Wright",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/register": "^7.4.4",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "browserslist": "^4.6.4",
+    "eslint": "^5.16.0",
+    "eslint-loader": "^2.2.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "maintained node versions",
+    "IE 11"
+  ]
+}
