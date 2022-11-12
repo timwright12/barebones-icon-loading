@@ -21,7 +21,7 @@
     "eslint": "^5.16.0",
     "eslint-loader": "^2.2.1",
     "webpack": "^4.35.3",
-    "webpack-cli": "^3.3.5"
+    "webpack-cli": "^3.3.12"
   },
   "browserslist": [
     "last 2 versions",
